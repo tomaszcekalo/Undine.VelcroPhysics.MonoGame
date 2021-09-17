@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Tomasz Cekało</Authors>
-    <Version>0.0.3</Version>
+    <Version>0.0.4</Version>
     <Description>VelcroPhysics.MonoGame binding for Undine Game Engine</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Copyright>Tomasz Cekało</Copyright>
