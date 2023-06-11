@@ -1,22 +1,29 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net7</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Tomasz Cekało</Authors>
-    <Version>0.0.4</Version>
+    <Version>0.0.5</Version>
     <Description>VelcroPhysics.MonoGame binding for Undine Game Engine</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Copyright>Tomasz Cekało</Copyright>
     <PackageTags>ecs, reactive, patterns, ioc, view-separation, xna, game-development, unity, monogame, gamedev, games, ecs, c-sharp, entity-component, entity-framework, entity, entity-component-system, tdd, test-driven-development, performance, design-pattern, paradigmshift, paradigm, design-patterns, game, game-engine, scripts, scripting, data-driven, data, driven, velcro, physics, mono, undine</PackageTags>
     <RepositoryUrl>https://github.com/tomaszcekalo/Undine.VelcroPhysics.MonoGame</RepositoryUrl>
     <RepositoryType>https://github.com/tomaszcekalo/Undine.VelcroPhysics.MonoGame</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641" />
-    <PackageReference Include="Undine.Core" Version="0.0.0.1" />
-    <PackageReference Include="Undine.MonoGame" Version="0.0.2" />
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.1.303" />
+    <PackageReference Include="Undine.MonoGame" Version="0.0.5" />
     <PackageReference Include="VelcroPhysics.MonoGame" Version="0.2.2-CI-20210406-134555" />
   </ItemGroup>
 
