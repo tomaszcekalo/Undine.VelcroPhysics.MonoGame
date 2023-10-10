@@ -4,7 +4,7 @@
     <TargetFramework>net7</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Tomasz Cekało</Authors>
-    <Version>0.0.5</Version>
+    <Version>0.0.6</Version>
     <Description>VelcroPhysics.MonoGame binding for Undine Game Engine</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Copyright>Tomasz Cekało</Copyright>
@@ -23,7 +23,7 @@
 
   <ItemGroup>
 	  <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.1.303" />
-    <PackageReference Include="Undine.MonoGame" Version="0.0.5" />
+    <PackageReference Include="Undine.MonoGame" Version="0.0.6" />
     <PackageReference Include="VelcroPhysics.MonoGame" Version="0.2.2-CI-20210406-134555" />
   </ItemGroup>
 
