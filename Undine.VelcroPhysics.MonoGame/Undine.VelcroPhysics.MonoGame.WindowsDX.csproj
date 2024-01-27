@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7</TargetFramework>
+    <TargetFramework>net8-windows7</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Tomasz Cekało</Authors>
     <Version>0.0.6</Version>
@@ -22,8 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-	  <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.1.303" />
-    <PackageReference Include="Undine.MonoGame" Version="0.0.6" />
+	  <PackageReference Include="Undine.Core" Version="0.0.0.8" />
+	  <PackageReference Include="Undine.MonoGame.WindowsDX" Version="0.0.7" />
     <PackageReference Include="VelcroPhysics.MonoGame" Version="0.2.2-CI-20210406-134555" />
   </ItemGroup>
 
